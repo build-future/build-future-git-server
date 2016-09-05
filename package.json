@@ -1,0 +1,33 @@
+{
+  "name": "git-server",
+  "version": "1.0.0",
+  "description": "git server for repositories",
+  "main": "./bin/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node bin/index.js",
+    "build": "babel lib -d bin"
+  },
+  "author": "samuelzuuka",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "browser-sync": "^2.14.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^1.3.2",
+    "gulp-debug": "^2.1.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.9"
+  },
+  "configs": {
+    "app.config": "config/app.json"
+  },
+  "dependencies": {
+    "babel-register": "^6.14.0"
+  }
+}

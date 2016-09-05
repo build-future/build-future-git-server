@@ -1,0 +1,7 @@
+{
+
+  "git_root":"./../",
+  "data_root":"./data/",
+  "server_root":"./public/",
+  "test_root":"./test/"
+}
